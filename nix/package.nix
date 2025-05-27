@@ -6,7 +6,7 @@
     version = "0.1.0";
     src = ../.;
 
-    cargoHash = "sha256-QT5KhM92A5JuY/Hh+ccwHHEmfYsk8l3xxnAM+1TbYI4=";
+    cargoHash = "sha256-0lozsvMiLB2OE4kQO9DJyQhqaT1IEu1D5yO77jIHFx0=";
     useFetchCargoVendor = true;
   };
 }
