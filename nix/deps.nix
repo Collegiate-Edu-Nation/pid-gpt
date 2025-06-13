@@ -1,6 +1,10 @@
 { pkgs }:
 
 {
+  build = with pkgs; [
+    openssl
+  ];
+
   dev = with pkgs; [
     rustc
     cargo

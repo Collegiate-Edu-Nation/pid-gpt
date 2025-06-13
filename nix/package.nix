@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, deps }:
 
 {
   default = pkgs.rustPlatform.buildRustPackage {
@@ -6,6 +6,7 @@
     version = "0.1.0";
     src = ../.;
 
+    buildInputs = deps.build;
     cargoHash = "sha256-5nXWoRuw7z+n8BBATwKZNGb53C9MH1+zTZeHTEAK+pg=";
     useFetchCargoVendor = true;
   };
