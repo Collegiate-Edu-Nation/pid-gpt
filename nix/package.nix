@@ -2,7 +2,7 @@
 
 {
   default = pkgs.rustPlatform.buildRustPackage {
-    pname = "ftc-gpt";
+    pname = "pid-gpt";
     version = "0.1.0";
     src = ../.;
 

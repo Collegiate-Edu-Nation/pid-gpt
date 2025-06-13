@@ -1,5 +1,5 @@
 {
-  description = "ftc-gpt DevShell and Package via Nix Flake";
+  description = "pid-gpt DevShell and Package via Nix Flake";
 
   nixConfig.bash-prompt = ''\n\[\033[1;31m\][devShell:\w]\$\[\033[0m\] '';
 

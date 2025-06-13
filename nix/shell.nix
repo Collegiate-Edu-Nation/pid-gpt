@@ -5,7 +5,7 @@
     packages = deps.dev;
 
     shellHook = ''
-      echo -e "\nftc-gpt DevShell via Nix Flake\n"
+      echo -e "\npid-gpt DevShell via Nix Flake\n"
 
       echo -e "┌─────────────────────────┐"
       echo -e "│     Useful Commands     │"

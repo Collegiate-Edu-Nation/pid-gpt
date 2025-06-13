@@ -200,7 +200,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "ftc-gpt"
+name = "pid-gpt"
 version = "0.1.0"
 dependencies = [
  "rig-core",
