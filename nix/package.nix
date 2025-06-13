@@ -7,6 +7,7 @@
     src = ../.;
 
     buildInputs = deps.build;
+    nativeBuildInputs = deps.run;
     cargoHash = "sha256-5nXWoRuw7z+n8BBATwKZNGb53C9MH1+zTZeHTEAK+pg=";
     useFetchCargoVendor = true;
   };

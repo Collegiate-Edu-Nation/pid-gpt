@@ -15,4 +15,8 @@
     build
     format
   ];
+
+  run = with pkgs; [
+    pkg-config
+  ];
 }
