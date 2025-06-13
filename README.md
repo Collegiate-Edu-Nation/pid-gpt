@@ -8,7 +8,7 @@ Agentic proof-of-concept for leveraging local LLMs to tune PID controllers (like
 
 Written in Rust and adapted from the [Rig example]
 
-# Usage
+## Usage
 
 _Ensure Ollama is installed (w/ Mistral downloaded) and running_
 
